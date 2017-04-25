@@ -44,7 +44,18 @@ public class MainActivity extends AppCompatActivity {
 
     switch (view.getId()){
 
-
+        case R.id.btn_1:{
+            editText2.setText(editText2.getText().toString() + btn1.getText());
+            break;
+        }
+        case R.id.btn_2:{
+            editText2.setText(editText2.getText().toString() + btn2.getText());
+            break;
+        }
+        case R.id.btn_3:{
+            editText2.setText(editText2.getText().toString() + btn3.getText());
+            break;
+        }
     }
     }
 

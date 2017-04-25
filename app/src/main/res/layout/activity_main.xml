@@ -57,6 +57,7 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:layout_margin="0dp"
+                android:onClick="buttonClick"
                 android:text="@string/one"
                 android:textSize="36sp" />
         </LinearLayout>
@@ -73,6 +74,7 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:layout_margin="0dp"
+                android:onClick="buttonClick"
                 android:text="@string/two"
                 android:textSize="36sp" />
         </LinearLayout>
@@ -89,6 +91,7 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:layout_margin="0dp"
+                android:onClick="buttonClick"
                 android:text="@string/three"
                 android:textSize="36sp" />
         </LinearLayout>
