@@ -29,6 +29,7 @@
             android:focusableInTouchMode="false"
             android:inputType="textPersonName"
             android:textAlignment="textEnd"
+            android:textSize="36sp"
             tools:ignore="NestedWeights" />
 
     </LinearLayout>
@@ -121,6 +122,7 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:layout_margin="0dp"
+                android:onClick="buttonClick"
                 android:text="@string/four"
                 android:textSize="36sp" />
         </LinearLayout>
@@ -137,6 +139,7 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:layout_margin="0dp"
+                android:onClick="buttonClick"
                 android:text="@string/five"
                 android:textSize="36sp" />
         </LinearLayout>
@@ -153,6 +156,7 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:layout_margin="0dp"
+                android:onClick="buttonClick"
                 android:text="@string/six"
                 android:textSize="36sp" />
         </LinearLayout>
@@ -183,6 +187,7 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:layout_margin="0dp"
+                android:onClick="buttonClick"
                 android:text="@string/clear"
                 android:textSize="36sp" />
         </LinearLayout>
@@ -199,6 +204,7 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:layout_margin="0dp"
+                android:onClick="buttonClick"
                 android:text="@string/sum"
                 android:textSize="36sp" />
         </LinearLayout>
@@ -215,6 +221,7 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:layout_margin="0dp"
+                android:onClick="buttonClick"
                 android:text="@string/equal"
                 android:textSize="36sp" />
         </LinearLayout>
